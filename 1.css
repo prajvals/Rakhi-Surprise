@@ -1,0 +1,51 @@
+h1{
+	font-family: "Comic Sans MS"
+	font-size:80px;
+	text-align:center;
+	letter-spacing: 2px;
+
+}
+p{
+	text-indent: 50px;
+	font-family: "Comic Sans MS"
+	font-size:50px;
+	text-align:center;
+}
+p.formpara
+{
+text-align: center;
+background-color: skyblue;
+}
+body
+{
+	background-image: url("/home/prajval/Desktop/webdev work for rakhi/awp la1/rakhi3.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:100%;
+	overflow:scroll;
+	position:static;
+
+
+}
+div.imagefirst
+{
+	position: absolute;
+	right:70px;
+	bottom:80px;
+}
+div.imagesecond
+{
+	position: absolute;
+	left:200px;
+	bottom:80px;
+}
+button
+{
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	background-color: black;
+	padding: 15px 20px;
+	border-radius: 10px;
+}

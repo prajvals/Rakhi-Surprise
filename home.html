@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to my page</title>
+	<link rel="stylesheet" type="text/css" href="/home/prajval/Desktop/webdev work for rakhi/awp la1/1.css">
+	<script src="/home/prajval/Desktop/webdev work for rakhi/awp la1/jquery.js">
+		</script>
+		<script>
+		$(function(){
+			var x=prompt("Whats Your Name");
+			alert("Welcome to my website "+x);
+			
+			$("button").click(function(){
+				alert("Thank you for your response "+x);
+			});
+			
+			});
+		$(function(){
+			$("textarea").focus(function(){
+				$(this).css("background-color","skyblue");
+			});
+			$("textarea").blur(function(){
+				$(this).css("background-color", "red");
+			});
+			$(".firstpic").hover(function(){
+			$(this).attr("height","500px");
+			$(this).attr("width","500px");
+			},
+			function(){
+			$(this).attr("height","400px");
+			$(this).attr("width","400px");
+			});
+			$(".secondpic").hover(function(){
+			$(this).attr("height","500px");
+			$(this).attr("width","500px");
+			},
+			function(){
+			$(this).attr("height","400px");
+			$(this).attr("width","400px");
+			});
+		});
+		$(function(){
+			$(".figcaption1").click(function(){
+			$(this).hide(2000);
+			});
+			$(".figcaption2").click(function(){
+			$(this).hide(2000);
+			});
+			$(".firstpic").click(function(){
+			$(".figcaption1").show(1000);
+			});
+			$(".secondpic").click(function(){
+			$(".figcaption2").show(1000);
+			});
+			$("p").click(function(){
+			document.write("We took you somewhere Ha Ha Ha");
+			});
+		});
+</script>
+</head>
+<body>
+	<h1 style="font-style: italic; font-weight: bold; background-color: skyblue;">To A Happy Rakhi</h1>
+	<p class="forfun" style="font-weight: bold; background-color:bisque;">This is my tribute to you di</p>
+	<div class="imagefirst">
+	<figure>
+	<img class="firstpic" src="/home/prajval/Desktop/webdev work for rakhi/awp la1/di.jpeg" height="400px" width="400px">
+	<figcaption class="figcaption1"style="font-size: 20px;font-style: italic; font-weight: bold; background-color: skyblue;">Meet My Di</figcaption>
+    </figure>
+	</div>
+	<div class="imagesecond">
+    <figure>
+	<img class="secondpic" src="/home/prajval/Desktop/webdev work for rakhi/awp la1/me.jpeg" height="400px"width="300px">
+	<figcaption class="figcaption2" style="font-size: 20px;font-style: italic; font-weight: bold; background-color: skyblue;">Meet Me</figcaption>
+    </figure>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+<div class="form">
+	<p style="background-color: skyblue; size:20px; font-size: 20px; font-style: Comic Sans MS;"> This is for you to fill in the feedback </p>
+	<form style="position: center;">
+		<textarea rows="20" cols="50" value="Enter Your views"></textarea>
+		<br>
+		<br>
+		<button >Submit</button>
+	</form>
+</div>
+</body>
+</html>
